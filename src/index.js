@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Dealer from './context/PalContadorProvider';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Dealer>
+      <App />
+    </Dealer>
+  
   </React.StrictMode>,
   document.getElementById('root')
 );
