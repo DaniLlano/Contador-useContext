@@ -1,0 +1,29 @@
+button {
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+    
+button:active {
+    background: grey;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #121212;
+    min-height: 100vh;
+  }
+
+.containerChikito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numerito {
+    margin: 25px;
+}
